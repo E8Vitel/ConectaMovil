@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1037542220391",
+    "project_id": "contactomovil-56362",
+    "storage_bucket": "contactomovil-56362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037542220391:android:2bd2bf0f1f2a3acf676ac2",
+        "android_client_info": {
+          "package_name": "com.example.conectamovil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFeb82zjP18-SXEjDoyPjnWbAPKsvzGIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
