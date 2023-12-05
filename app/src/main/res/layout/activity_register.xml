@@ -20,9 +20,10 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:text="@string/foto_de_perfil"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
         <ImageView
+            android:id="@+id/pfp"
             android:layout_width="91dp"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
@@ -34,9 +35,8 @@
             android:layout_width="300dp"
             android:layout_height="1dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
-            />
+            android:layout_marginBottom="20dp" />
 
         <EditText
             android:id="@+id/txtNombre"
@@ -45,6 +45,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="14dp"
             android:hint="Ingrese su nombre" />
+
         <EditText
             android:id="@+id/txtApellido"
             android:layout_width="300dp"
@@ -52,6 +53,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="14dp"
             android:hint="Ingrese su apellido" />
+
         <EditText
             android:id="@+id/txtUsuarioR"
             android:layout_width="300dp"
@@ -69,14 +71,15 @@
             android:hint="@string/ingrese_email" />
 
         <EditText
-            android:id="@+id/txtContrasena"
+            android:id="@+id/txtContra"
             android:layout_width="300dp"
             android:layout_height="48dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="14dp"
             android:hint="@string/ingrese_contrase_a" />
+
         <EditText
-            android:id="@+id/txtContrasenaAgain"
+            android:id="@+id/txtContraAgain"
             android:layout_width="300dp"
             android:layout_height="48dp"
             android:layout_gravity="center_horizontal"
@@ -108,10 +111,10 @@
                 android:id="@+id/txtInicioSesion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/blue"
                 android:layout_marginStart="3dp"
+                android:clickable="true"
                 android:text="@string/inicia_sesi_n"
-                android:clickable="true"/>
+                android:textColor="@color/blue" />
 
         </LinearLayout>
 
