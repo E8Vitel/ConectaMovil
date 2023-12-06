@@ -27,11 +27,12 @@
             android:src="@mipmap/ic_launcher_round" />
 
         <TextView
+            android:id="@+id/txtNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="15dp"
-            android:text=""
+            android:text="Nombre"
             android:textSize="24sp" />
 
         <View
@@ -41,41 +42,6 @@
             android:layout_marginBottom="15dp"
             android:background="@color/black" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="14dp"
-                android:src="@drawable/baseline_face_6_24"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:text="@string/nombre"
-                android:textSize="18sp" />
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/txtNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="14dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="10dp"
-            android:text="Nombre"
-            android:textSize="12sp" />
-
-        <View
-            android:layout_width="200dp"
-            android:layout_height="1dp"
-            android:layout_marginStart="14dp"
-            android:layout_marginBottom="15dp"
-            android:background="@color/black" />
 
         <LinearLayout
             android:layout_width="wrap_content"

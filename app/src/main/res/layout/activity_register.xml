@@ -44,7 +44,8 @@
             android:layout_height="48dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="14dp"
-            android:hint="Ingrese su nombre" />
+            android:hint="Ingrese su nombre"
+            />
 
         <EditText
             android:id="@+id/txtApellido"
@@ -60,7 +61,8 @@
             android:layout_height="48dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="14dp"
-            android:hint="@string/ingrese_usuario" />
+            android:hint="@string/ingrese_usuario"
+            />
 
         <EditText
             android:id="@+id/txtEmailR"
@@ -68,7 +70,8 @@
             android:layout_height="48dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="14dp"
-            android:hint="@string/ingrese_email" />
+            android:hint="@string/ingrese_email"
+            android:inputType="textEmailAddress"/>
 
         <EditText
             android:id="@+id/txtContra"
@@ -76,7 +79,8 @@
             android:layout_height="48dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="14dp"
-            android:hint="@string/ingrese_contrase_a" />
+            android:hint="@string/ingrese_contrase_a"
+            android:inputType="textPassword"/>
 
         <EditText
             android:id="@+id/txtContraAgain"
@@ -84,7 +88,8 @@
             android:layout_height="48dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="14dp"
-            android:hint="@string/verifique_su_contrase_a" />
+            android:hint="@string/verifique_su_contrase_a"
+            android:inputType="textPassword"/>
 
         <Button
             android:id="@+id/btnRegistro"

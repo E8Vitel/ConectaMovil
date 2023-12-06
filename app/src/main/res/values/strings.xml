@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ConectaMovil</string>
     <string name="todo">TODO</string>
-    <string name="ingrese_usuario_o_email">Ingrese usuario o email</string>
+    <string name="ingrese_usuario_o_email">Ingrese email</string>
     <string name="ingrese_contrase_a">Ingrese contraseña</string>
     <string name="inicia_sesi_n"> Inicia Sesión</string>
     <string name="ya_tienes_cuenta">¿Ya tienes cuenta?</string>
@@ -13,4 +13,10 @@
     <string name="foto_de_perfil">Foto de perfil</string>
     <string name="nombre">Nombre</string>
     <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="nombre_de_contacto">Nombre de contacto</string>
+    <string name="crear_contacto">Crear Contacto</string>
+    <string name="guardar">Guardar</string>
+    <string name="volver">Volver</string>
+    <string name="escribe_un_mensaje">Escribe un mensaje</string>
+    <string name="enviar">Enviar</string>
 </resources>

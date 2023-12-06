@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradado"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_eve"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/crear_contacto"
+                android:layout_gravity="center_vertical"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="90dp"
+                android:src="@drawable/baseline_edit_note_24"
+                />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/vTarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/nombre_de_contacto" />
+
+        <EditText
+            android:id="@+id/createNombreC"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:labelFor="@+id/vTarea" />
+
+        <TextView
+            android:id="@+id/vDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Numero de contacto" />
+
+        <EditText
+            android:id="@+id/createNumeroC"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:labelFor="@+id/vDescripcion" />
+
+        <TextView
+            android:id="@+id/vFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Email de contacto" />
+
+        <EditText
+            android:id="@+id/createEmailC"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:labelFor="@+id/vFecha"
+            android:inputType="textEmailAddress"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/rounded_eve"
+                android:text="@string/volver" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="118dp"
+                android:layout_toEndOf="@+id/btnVolver"
+                android:background="@drawable/rounded_eve"
+                android:text="@string/guardar" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

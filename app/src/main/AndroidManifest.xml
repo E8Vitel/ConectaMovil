@@ -16,6 +16,15 @@
             android:name=".ChatActivity"
             android:exported="false" />
         <activity
+            android:name=".CrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerActivity"
+            android:exported="false" />
+        <activity
             android:name=".PerfilActivity"
             android:exported="false" />
         <activity

@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:background="@drawable/rounded_eve"
+    android:background="@drawable/rounded_eve_border"
     android:padding="16dp">
 
     <TextView
@@ -18,7 +18,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/viewDescription"
+        android:id="@+id/viewNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/viewNombre"
@@ -32,20 +32,28 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_above="@id/viewFecha"
+        android:layout_above="@id/viewEmail"
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:background="#000000" />
 
     <TextView
-        android:id="@+id/viewFecha"
+        android:id="@+id/viewEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/viewDescription"
+        android:layout_below="@id/viewNumero"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="TextView"
         android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_below="@id/viewEmail"
+        android:src="@drawable/baseline_edit_note_24" />
 
 
 </RelativeLayout>
