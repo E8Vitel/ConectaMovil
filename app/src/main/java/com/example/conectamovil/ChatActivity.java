@@ -2,7 +2,7 @@ package com.example.conectamovil;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+        import android.os.Bundle;
 
 public class ChatActivity extends AppCompatActivity {
 

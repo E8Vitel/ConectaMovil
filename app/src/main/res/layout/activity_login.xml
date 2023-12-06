@@ -20,7 +20,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:contentDescription="@string/todo"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@mipmap/ic_launcher_round" />
 
         <TextView
             android:layout_width="wrap_content"
