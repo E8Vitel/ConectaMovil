@@ -11,4 +11,6 @@
     <string name="ingrese_usuario">Ingrese nombre de usuario</string>
     <string name="conectamovil">ConectaMovil</string>
     <string name="foto_de_perfil">Foto de perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
 </resources>

@@ -9,16 +9,23 @@ public class Usuarios {
     private String contrasena;
     private String urlPfp;
 
-    public Usuarios(String nombre, String apellido, String usuario, String email, String contrasena) {
+    public Usuarios(String nombre, String apellido, String usuario, String email, String contrasena, String urlPfp) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.usuario = usuario;
         this.email = email;
         this.contrasena = contrasena;
+        this.urlPfp = urlPfp;
     }
 
     public Usuarios() {
 
+    }
+
+    public String getUrlPfp() { return urlPfp; }
+
+    public void setUrlPfp(String urlPfp) {
+        this.urlPfp = urlPfp;
     }
 
     public String getNombre() {
