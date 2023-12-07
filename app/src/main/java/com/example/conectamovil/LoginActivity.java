@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -60,6 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                         }).addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
+                                Log.d("LoginActivity","Error: " + e.getMessage());
                                 Toast.makeText(LoginActivity.this, "Algo ha salido mal...", Toast.LENGTH_SHORT).show();
                             }
                         });

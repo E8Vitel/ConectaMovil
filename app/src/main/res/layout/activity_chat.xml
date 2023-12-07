@@ -11,7 +11,7 @@
         android:id="@+id/recyclerViewChat"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/inputMessage"
+        android:layout_above="@+id/inputMensaje"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:background="@android:color/background_light"
@@ -19,7 +19,7 @@
         tools:listitem="@layout/layout_message" />
 
     <EditText
-        android:id="@+id/inputMessage"
+        android:id="@+id/inputMensaje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -30,7 +30,7 @@
         android:layout_marginBottom="8dp"/>
 
     <Button
-        android:id="@+id/btnSendMessage"
+        android:id="@+id/btnEnviarMensaje"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
